@@ -79,6 +79,7 @@ figure {
   width: 300px;
   position: fixed;
   overflow: scroll;
+  overflow-x: hidden;
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
@@ -1429,3 +1430,22 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
