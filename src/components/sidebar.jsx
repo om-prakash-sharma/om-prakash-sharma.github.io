@@ -25,10 +25,10 @@ export default class Sidebar extends Component {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-                <li><a href="https://www.facebook.com/om.sharma.92" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
                 <li><a href="https://www.linkedin.com/in/om-prakash-sharma-b73582b9" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/om-prakash-sharma" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
-                {/*<li><a href="" target="_blank" rel="noopener noreferrer"><i className="icon-blogger2"></i></a></li>*/}
+                <li><a href="https://stackoverflow.com/users/4976786/om-sharma" target="_blank" rel="noopener noreferrer"><i className="icon-stackoverflow"></i></a></li>
+                <li><a href="https://www.facebook.com/om.sharma.92" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
               </ul>
             </nav>
             <div className="colorlib-footer">
