@@ -14,7 +14,7 @@ export default class About extends Component {
                                             <span className="heading-meta">About Me</span>
                                             <h2 className="colorlib-heading">Who Am I?</h2>
                                             <p>I'm Om Prakash Sharma, have 6 years of professional experence in IT industry, completed my B.Tech (Computer Science Engineering) from GIT Jaipur in 2015. I love exploring new technologies and always try to implementing new things/technology in my projects.</p>
-                                            <p>Currently working as a Full Stack Developer with experience in building websites, web applications and mobile applications. Ability to learn new technologies/framework quickly. Have professional experience working with JavaScript, NodeJS, ReactJs, EmberJs, AngularJs, JQuery, Spring Boot, Native Android applications, PostgreSQL and MongoDB.</p>
+                                            <p>Currently working as a Full Stack Developer with experience in building websites, web applications and mobile applications. Ability to learn new technologies/framework quickly. Have professional experience working with <b>JavaScript, NodeJS, ReactJs, EmberJs, AngularJs, JQuery, Spring Boot, Native Android applications, PostgreSQL </b> and <b>MongoDB</b>.</p>
                                         </div>
                                     </div>
                                 </div>

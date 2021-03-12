@@ -21,10 +21,10 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Full Stack Developer at Habilelabs Pvt. Ltd.<span> 2015-present</span></h2>
-                        <p>I have joined the Habilelabs Pvt. Ltd. as a Software Developer team. I started working as mobile application developer and currently working as Associate Tech Lead/Senior Software developer.
-                        I worked in NodeJs, Spring Boot(Java), Native/Hybrid Mobile Application, React, Angular, JQuery, Chrome Extensions, etc..
-                                </p>
+                        <h2>Senior Full Stack Developer at Habilelabs Pvt. Ltd.<span> 2015-present</span></h2>
+                        <p>I started my career at Habilelabs Pvt. Ltd. as a Software Developer, started working as mobile application developer and currently working as Associate Tech Lead/Senior Full Stack developer. 
+                          I worked in <b>NodeJs, ReactJs, AngularJs, JQuery, EmberJs, Spring Boot(Java)</b> and <b>Native/Hybrid Mobile Application</b>.
+                          </p>
                       </div>
                     </div>
                   </article>
