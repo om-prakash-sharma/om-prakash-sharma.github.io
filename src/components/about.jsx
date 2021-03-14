@@ -1,6 +1,24 @@
 import React, { Component } from 'react'
 
 export default class About extends Component {
+
+    constructor(props){
+        super(props);
+        this.state = {
+            resumeLink : ''
+        }
+    }
+
+    async componentDidMount(){
+
+        let data = await fetch(`${window.location.protocol}//raw.githubusercontent.com/om-prakash-sharma/data/b5a16e6391c1cb60899154c84d405aee6f6330e3/portfolio.json`);
+        data = await data.json();
+        console.log(' ' , data.resume);
+        this.setState({
+            resumeLink : data.resume
+        })
+    }
+
     render() {
         return (
             <div>
@@ -15,6 +33,7 @@ export default class About extends Component {
                                             <h2 className="colorlib-heading">Who Am I?</h2>
                                             <p>I'm Om Prakash Sharma, have 6 years of professional experence in IT industry, completed my B.Tech (Computer Science Engineering) from GIT Jaipur in 2015. I love exploring new technologies and always try to implementing new things/technology in my projects.</p>
                                             <p>Currently working as a Full Stack Developer with experience in building websites, web applications and mobile applications. Ability to learn new technologies/framework quickly. Have professional experience working with <b>JavaScript, NodeJS, ReactJs, EmberJs, AngularJs, JQuery, Spring Boot, Native Android applications, PostgreSQL </b> and <b>MongoDB</b>.</p>
+                                            <p><a className="btn btn-primary btn-learn" href={this.state.resumeLink} target="_blank" rel="noopener noreferrer">Check CV <i className="icon-download4 download-cv" /></a></p>
                                         </div>
                                     </div>
                                 </div>

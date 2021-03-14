@@ -31,3 +31,8 @@
     transform: rotate(360deg);
   }
 }
+
+.download-cv {
+  margin-left: 6px !important;
+  font-size: medium !important;
+}
