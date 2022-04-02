@@ -39,7 +39,7 @@ export default class About extends Component {
                                                 Who Am I?
                                             </h2>
                                             <p>
-                                                I'm Om Prakash Sharma, have 6
+                                                I'm Om Prakash Sharma, have 7
                                                 years of professional experence
                                                 in IT industry, completed my
                                                 B.Tech (Computer Science
@@ -60,12 +60,13 @@ export default class About extends Component {
                                                 quickly. Have professional
                                                 experience working with{" "}
                                                 <b>
-                                                    JavaScript, NodeJS, ReactJs,
-                                                    EmberJs, AngularJs, JQuery,
-                                                    Spring Boot, Native Android
-                                                    applications, PostgreSQL{" "}
+                                                    NodeJS, ReactJs, EmberJs,
+                                                    AngularJs, JQuery, Spring
+                                                    Boot, Native Android
+                                                    applications, Database
+                                                    (PostgreSQL{" "}
                                                 </b>{" "}
-                                                and <b>MongoDB</b>.
+                                                and <b>MongoDB</b>).
                                             </p>
                                             <p>
                                                 <a
@@ -109,7 +110,7 @@ export default class About extends Component {
                                         <p>
                                             Professional Experience in building
                                             Web Application using JavaScript,
-                                            AngularJs, ReactJs, EmberJs, JQuery
+                                            ReactJs, EmberJs, AngularJs, JQuery
                                         </p>
                                     </div>
                                 </div>
@@ -122,9 +123,10 @@ export default class About extends Component {
                                     <div className="desc">
                                         <h3>Backend Development</h3>
                                         <p>
-                                            Professional Experience in building
-                                            RESTFul APIs in NodeJs(JavaScript)
-                                            and Spring Boot(Java)
+                                            Professional Experience in designing
+                                            & building RESTFul APIs using
+                                            NodeJs(JavaScript) and Spring
+                                            Boot(Java)
                                         </p>
                                     </div>
                                 </div>
@@ -138,7 +140,7 @@ export default class About extends Component {
                                         <h3>Database</h3>
                                         <p>
                                             Experience with multiple Database
-                                            (MySQL, PostgresSQL, SQL Server) and
+                                            (PostgresSQL, MySQL, SQL Server) and
                                             Non-SQL database (MongoDB)
                                         </p>
                                     </div>
@@ -170,10 +172,10 @@ export default class About extends Component {
                                     <div className="desc">
                                         <h3>Others</h3>
                                         <p>
-                                            Familiar with GIT, deployment of
-                                            project over AWS, GCloud,
-                                            DigitalOcean, Web hosting, NGINX(
-                                            load balancing, reverse proxy )
+                                            Familiar with GIT, Google Cloud
+                                            Services, AWS (S3, EC2), Dockers,
+                                            Web hosting, NGINX(load balancing,
+                                            reverse proxy)
                                         </p>
                                     </div>
                                 </div>
