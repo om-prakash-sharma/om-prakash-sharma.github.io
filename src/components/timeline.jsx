@@ -68,8 +68,8 @@ export default class Timeline extends Component {
                           <i className="icon-pen2" />
                         </div>
                         <div className="timeline-label">
-                          <h2>{timeLine.title} at {timeLine.place}<span> {timeLine.period}</span></h2>
-                          <p>{timeLine.desc}</p>
+                          <h2 style={timeLine.desc ? {} : { marginBottom: '10px' }}>{timeLine.title} at {timeLine.place}<span> {timeLine.period}</span></h2>
+                          {timeLine.desc ? <p>{timeLine.desc}</p> : ''}
                         </div>
                       </div>
                     </article>
