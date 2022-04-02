@@ -4,48 +4,46 @@ export default class Timeline extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {
-      timeLineList: [
-        {
-          "title": "Technical Lead",
-          "period": "Jan 2022 - Present",
-          "place": "Habilelabs Pvt. Ltd."
-        },
-        {
-          "title": "Associate Technical Lead",
-          "period": "Jun 2019 - Dec 2021 (2 year, 7 month",
-          "place": "Habilelabs Pvt. Ltd."
-        },
-        {
-          "title": "Senior Software Engineer",
-          "period": "Jun 2017 - May 2019 (2 year)",
-          "place": "Habilelabs Pvt. Ltd."
-        },
-        {
-          "title": "Web Developer",
-          "period": "Jun 2016 - May 2017 (1 year)",
-          "place": "Habilelabs Pvt. Ltd."
-        },
-        {
-          "title": "Android Developer",
-          "period": "Jun 2015 - May 2016 (1 year)",
-          "desc": "I started my career at Habilelabs Pvt. Ltd. as android mobile application developer",
-          "place": "Habilesoft Pvt. Ltd."
-        },
-        {
-          "title": "Internship",
-          "period": "Jun 2014 - May 2015 (2 month)",
-          "place": "Genx Soft Pvt. Ltd.",
-          "desc": "Completed my internship from Genx Soft. My major part of the internship has been into the field of developing creative native android mobile application with reach UX and better performance."
-        },
-        {
-          "title": "Undergraduate",
-          "period": "July 2011 - June 2015 (4 year)",
-          "place": "GIT Jaipur.",
-          "desc": "Completed my under-graduation studies with Computer Science and Technology. During my collage time I learn C/C++, Data Structure, Java, Android and develop Expense Tracking Mobile Application as my minor project and Centralize Data sharing Project as my Major project."
-        }
-      ]
-    }
+    this.defaultTimeLine = [
+      {
+        "title": "Technical Lead",
+        "period": "Jan 2022 - Present",
+        "place": "Habilelabs Pvt. Ltd."
+      },
+      {
+        "title": "Associate Technical Lead",
+        "period": "Jun 2019 - Dec 2021 (2 year, 7 month)",
+        "place": "Habilelabs Pvt. Ltd."
+      },
+      {
+        "title": "Senior Software Engineer",
+        "period": "Jun 2017 - May 2019 (2 year)",
+        "place": "Habilelabs Pvt. Ltd."
+      },
+      {
+        "title": "Web Developer",
+        "period": "Jun 2016 - May 2017 (1 year)",
+        "place": "Habilelabs Pvt. Ltd."
+      },
+      {
+        "title": "Android Developer",
+        "period": "Jun 2015 - May 2016 (1 year)",
+        "desc": "I started my career at Habilelabs Pvt. Ltd. as android mobile application developer",
+        "place": "Habilesoft Pvt. Ltd."
+      },
+      {
+        "title": "Internship",
+        "period": "Jun 2014 - May 2015 (2 month)",
+        "place": "Genx Soft Pvt. Ltd.",
+        "desc": "Completed my internship from Genx Soft. My major part of the internship has been into the field of developing creative native android mobile application with reach UX and better performance."
+      },
+      {
+        "title": "Undergraduate",
+        "period": "July 2011 - June 2015 (4 year)",
+        "place": "GIT Jaipur.",
+        "desc": "Completed my under-graduation studies with Computer Science and Technology. During my collage time I learn C/C++, Data Structure, Java, Android and develop Expense Tracking Mobile Application as my minor project and Centralize Data sharing Project as my Major project."
+      }
+    ]
   }
 
   render() {
@@ -63,8 +61,7 @@ export default class Timeline extends Component {
               <div className="col-md-12">
                 <div className="timeline-centered">
 
-                  {this.state.timeLineList.map((timeLine, key) => {
-
+                  {(this.defaultTimeLine).map((timeLine, key) => {
                     return <article key={key} className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                       <div className="timeline-entry-inner">
                         <div className={"timeline-icon color-" + (key % 5 + 1)}>

@@ -1,23 +1,6 @@
 import React, { Component } from "react";
 
 export default class About extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            resumeLink: "",
-        };
-    }
-
-    async componentDidMount() {
-        let data = await fetch(
-            `${window.location.protocol}//raw.githubusercontent.com/om-prakash-sharma/data/master/portfolio.json`
-        );
-        data = await data.json();
-        console.log(" ", data.resume);
-        this.setState({
-            resumeLink: data.resume,
-        });
-    }
 
     render() {
         return (
@@ -71,7 +54,7 @@ export default class About extends Component {
                                             <p>
                                                 <a
                                                     className="btn btn-primary btn-learn"
-                                                    href={this.state.resumeLink}
+                                                    href={this.props.resumeLink}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
