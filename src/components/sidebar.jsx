@@ -8,7 +8,7 @@ export default class Sidebar extends Component {
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-              <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} />
+              <div className="author-img" style={{ backgroundImage: 'url(images/about.jpg)' }} />
               <h1 id="colorlib-logo"><a href="index.html">Om Sharma</a></h1>
               <span className="email"><i className="icon-mail"></i> om.sharma@outlook.in </span>
             </div>
@@ -28,13 +28,14 @@ export default class Sidebar extends Component {
                 <li><a href="https://www.linkedin.com/in/om-prakash-sharma-b73582b9" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/om-prakash-sharma" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
                 <li><a href="https://stackoverflow.com/users/4976786/om-sharma" target="_blank" rel="noopener noreferrer"><i className="icon-stackoverflow"></i></a></li>
+                <li><a href="https://www.npmjs.com/~om-prakash-sharma" target="_blank" rel="noopener noreferrer"><i className="icon-npm"></i></a></li>
                 <li><a href="https://www.facebook.com/om.sharma.92" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
               </ul>
             </nav>
             <div className="colorlib-footer">
               <p><small>
-                  Made with <i className="icon-music2" aria-hidden="true"></i><br></br>
-                  Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for inspiration 
+                Made with <i className="icon-music2" aria-hidden="true"></i><br></br>
+                Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for inspiration
               </small></p>
             </div>
           </aside>
