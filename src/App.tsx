@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import {
     ArrowUpRight,
     Download,
@@ -33,9 +33,16 @@ import {
 } from "./data/content";
 import { projects } from "./data/projects";
 
-const fade = {
-    hidden: { opacity: 0, y: 24 },
-    show: { opacity: 1, y: 0, transition: { duration: 0.55, ease: "easeOut" } },
+const fade: Variants = {
+  hidden: { opacity: 0, y: 24 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      ease: "easeInOut" as const
+    },
+  },
 };
 const stagger = { hidden: {}, show: { transition: { staggerChildren: 0.08 } } };
 
