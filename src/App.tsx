@@ -317,7 +317,7 @@ function App() {
                         style={{ overflow: "hidden", padding: 0 }}
                     >
                         <img
-                            src="https://om-prakash-sharma.github.io/images/about.jpg"
+                            src="/images/about.jpg"
                             alt="Om Prakash Sharma"
                             style={{
                                 width: "100%",
