@@ -134,7 +134,7 @@ function App() {
                     </button>
                     <a
                         className="resume"
-                        href="https://docs.google.com/document/d/1BiYntpSBSstm5DTf5eQ6aHAarsj-EY9f/view"
+                        href="https://drive.google.com/file/d/1iJSCXWv8jI1MGrbLprckSmn5Odgbq1TN/view"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -197,7 +197,7 @@ function App() {
                                 GitHub
                             </a>
                             <a
-                                href="https://docs.google.com/document/d/1BiYntpSBSstm5DTf5eQ6aHAarsj-EY9f/view"
+                                href="https://drive.google.com/file/d/1iJSCXWv8jI1MGrbLprckSmn5Odgbq1TN/view"
                                 target="_blank"
                                 rel="noreferrer"
                             >
